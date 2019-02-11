@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport content=width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <title>Document</title>
+  </head>
+  <body>
+      <form>
+          <legend>Enter employee information:</legend>
+          <label for="firstName">First Name:</label>
+          <input id="firstName" name="firstName" type="text" autofocus />
+        
+          <label for="lastName">Last Name:</label>
+          <input id="lastName" name="lastName" type="text" autofocus />
+
+          <label for="email">Email:</label>
+          <input id="email" name="email" type="text" autofocus />
+
+          <label for="phone">Phone Number:</label>
+          <input id="phone" name="phone" type="text" autofocus />
+          
+          <label for="birthDay">Birthday:</label>
+          <input id="birthDay" name="birthDay" type="date" autofocus />
+
+          <label for="dept">Department:</label>
+          <input id="dept" name="dept" type="text" autofocus />
+          <form action="#">
+              <p>
+                <label>
+                  <input id="checkbox" type="checkbox" name="checkbox" />
+                  <span>Supervisor?</span>
+                </label>
+              </p>
+      </form>
+      <div id="employee-container"></div>
+      <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons"  id="add-btn">add</i></a>
+    
+    <script src="scripts/singleEmployee.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/printAllEmployees.js"></script>
+    <script src="scripts/apiManager.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>
