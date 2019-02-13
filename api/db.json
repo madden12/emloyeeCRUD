@@ -1,5 +1,34 @@
 {
     "employees": [
-        
+        {
+            "firstName": "megan",
+            "lastName": "marie",
+            "email": "m azfcjh",
+            "phone": "34",
+            "birthday": "1987-01-02",
+            "department": "hfsjh",
+            "supervisor": true,
+            "id": 9
+        },
+        {
+            "firstName": "emploee",
+            "lastName": "feruief",
+            "email": "MEFGEBJK",
+            "phone": "3939748478",
+            "birthday": "",
+            "department": "DEPARTMENT",
+            "supervisor": true,
+            "id": 10
+        },
+        {
+            "firstName": "megan",
+            "lastName": "mscdnsj",
+            "email": "masfbjbj",
+            "phone": "7014002438",
+            "birthday": "0304-01-02",
+            "department": "idk",
+            "supervisor": "false/",
+            "id": 11
+        }
     ]
 }

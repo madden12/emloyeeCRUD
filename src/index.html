@@ -4,13 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport content=width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <!---- Materialize CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <!----- Material Icons-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+       rel="stylesheet">
     
     <title>Document</title>
   </head>
   <body>
       <form>
-          <legend>Enter employee information:</legend>
+          <div class="container">
+              <h1 class="center-align  teal-text darken-4">Enter Employee Information</h1>
           <label for="firstName">First Name:</label>
           <input id="firstName" name="firstName" type="text" autofocus />
         
@@ -23,11 +28,11 @@
           <label for="phone">Phone Number:</label>
           <input id="phone" name="phone" type="text" autofocus />
           
-          <label for="birthDay">Birthday:</label>
-          <input id="birthDay" name="birthDay" type="date" autofocus />
+          <label for="birthday">Birthday:</label>
+          <input id="birthday" name="birthday" type="date" autofocus />
 
-          <label for="dept">Department:</label>
-          <input id="dept" name="dept" type="text" autofocus />
+          <label for="department">Department:</label>
+          <input id="department" name="department" type="text" autofocus />
           <form action="#">
               <p>
                 <label>
@@ -36,13 +41,17 @@
                 </label>
               </p>
       </form>
-      <div id="employee-container"></div>
       <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons"  id="add-btn">add</i></a>
-    
-    <script src="scripts/singleEmployee.js"></script>
-    <script src="scripts/main.js"></script>
-    <script src="scripts/printAllEmployees.js"></script>
+      <div id="employee-container"></div>
+      
     <script src="scripts/apiManager.js"></script>
+    <script src="scripts/printAllEmployees.js"></script>
+    <script src="scripts/singleEmployee.js"></script>
+    <script src="scripts/editForm.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/taskObjectBuilder.js"></script>
+
+    
    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   </body>
 </html>
